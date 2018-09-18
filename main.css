@@ -1,0 +1,35 @@
+/*clears margin and padding of defaulted elements*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imggallery {
+  display: flex;
+  flex: wrap;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  /* padding: 0px; */
+}
+
+.column img {
+  /* margin-top: 0px; */
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .gallcolumn {
+    flex: 50%;
+    /* padding: 0px; */
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .gallcolumn {
+    flex: 100%;
+    /* padding: 0px; */
+  }
+}
