@@ -7,20 +7,94 @@
 .imggallery {
   display: flex;
   flex: wrap;
+  padding: 10px 40px 50px;
 }
 
 .column {
   flex: 33%;
   max-width: 33%;
-  /* padding: 0px; */
+  padding: 0 10px;
 }
 
 .column img {
-  /* margin-top: 0px; */
+  margin-top: 10px;
   vertical-align: middle;
 }
 
+#a{
+  background-image: url();
+  width: 100%;
+}
 
+#b{
+  background-image: url();
+  width: 100%;
+}
+
+#c{
+  background-image: url();
+  width: 100%;
+}
+
+#d{
+  background-image: url();
+  width: 100%;
+}
+
+#e{
+  background-image: url();
+  width: 100%;
+}
+
+#f{
+  background-image: url();
+  width: 100%;
+}
+
+#g{
+  background-image: url();
+  width: 100%;
+}
+
+#h{
+  background-image: url();
+  width: 100%;
+}
+
+#i{
+  background-image: url();
+  width: 100%;
+}
+
+#j{
+  background-image: url();
+  width: 100%;
+}
+
+#k{
+  background-image: url();
+  width: 100%;
+}
+
+#l{
+  background-image: url();
+  width: 100%;
+}
+
+#m{
+  background-image: url();
+  width: 100%;
+}
+
+#n{
+  background-image: url();
+  width: 100%;
+}
+
+#o{
+  background-image: url();
+  width: 100%;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .gallcolumn {
