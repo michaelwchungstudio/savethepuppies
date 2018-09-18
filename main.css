@@ -23,6 +23,7 @@ body {
   display:flex;
   justify-content: left;
   font-size: 22px;
+  border-bottom: 1px solid #D8D7DA;
 }
 
 .nav-container a {
@@ -33,9 +34,10 @@ body {
   color: #FA7F49;
 }
 
+
 /* Style When Hover Over Links */
 
-.nav-container a:hover {
+.nav-container a:hover, .active-link {
   background-color: #D8D7DA;
   color: black;
   transition: 0.2s;
@@ -58,11 +60,50 @@ body {
   color: gray;
 }
 
+.company-name:hover {
+  color: #FA7F49;
+  transition: 0.2s;
+}
+
 .copyright {
   font-size: 9px;
 }
 
 /* END OF NAVBAR */
+
+/* CONTENT */
+/* ------ */
+
+.wallpaper {
+  position: relative;
+  background-image: url("img/majestic.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  display: flex;
+}
+
+/* TEXT INSIDE WALLPAPER  */
+.wallpaper p {
+  /* border: 1px solid black; */
+  position: absolute;
+  margin: 13% 3%;
+  font-size: 2.5em;
+  color: white;
+}
+.mission-text {
+  /* border: 1px solid green; */
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.join-text {
+  /* border: 1px solid green; */
+  display: block;
+}
+
+/* END OF CONTENT */
 
 /* Image Gallery */
 /* ------ */
