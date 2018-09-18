@@ -61,6 +61,7 @@ body {
 
 .company-name:hover {
   color: #FA7F49;
+  transition: 0.2s;
 }
 
 .copyright {
