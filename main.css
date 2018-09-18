@@ -1,0 +1,59 @@
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: futura;
+}
+
+/* Nav Bar */
+/* ------ */
+
+.nav-container {
+  width: 100%;
+  display:flex;
+  justify-content: left;
+  font-size: 22px;
+}
+
+.nav-container a {
+  border-right: 1px dotted #D8D7DA;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  color: #FA7F49;
+}
+
+/* Style When Hover Over Links */
+
+.nav-container a:hover {
+  background-color: #D8D7DA;
+  color: black;
+  transition: 0.2s;
+}
+
+/* Donate Button */
+
+.donate-link {
+  background-color: #FA7F49;
+}
+
+.donate-link li {
+  color: white;
+}
+
+/* Company Name */
+
+.company-name{
+  margin: auto 15%;
+  color: gray;
+}
+
+.copyright {
+  font-size: 9px;
+}
+
+/* END OF NAVBAR */
