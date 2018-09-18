@@ -34,9 +34,10 @@ body {
   color: #FA7F49;
 }
 
+
 /* Style When Hover Over Links */
 
-.nav-container a:hover {
+.nav-container a:hover, .active-link {
   background-color: #D8D7DA;
   color: black;
   transition: 0.2s;
