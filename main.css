@@ -23,6 +23,7 @@ body {
   display:flex;
   justify-content: left;
   font-size: 22px;
+  border-bottom: 1px solid #D8D7DA;
 }
 
 .nav-container a {
