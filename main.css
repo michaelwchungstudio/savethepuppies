@@ -87,6 +87,111 @@
   width: 100%;
 } */
 
+body {
+  font-family: futura;
+}
+
+/* Nav Bar */
+/* ------ */
+
+.nav-container {
+  width: 100%;
+  display:flex;
+  justify-content: left;
+  font-size: 22px;
+}
+
+.nav-container a {
+  border-right: 1px dotted #D8D7DA;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  color: #FA7F49;
+}
+
+/* Style When Hover Over Links */
+
+.nav-container a:hover {
+  background-color: #D8D7DA;
+  color: black;
+  transition: 0.2s;
+}
+
+/* Donate Button */
+
+.donate-link {
+  background-color: #FA7F49;
+}
+
+.donate-link li {
+  color: white;
+}
+
+/* Company Name */
+
+.company-name{
+  margin: auto 15%;
+  color: gray;
+}
+
+.copyright {
+  font-size: 9px;
+}
+
+/* END OF NAVBAR */
+
+/* DONATE PAGE */
+
+.wrapper {
+  width: 100%;
+  display:grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*.image {
+  /*border: 2px solid red;*/
+  /*background-image: url("impossibly-cute-puppy-8.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  left: 100px;*/
+/*}**/
+
+.image {
+  background-image: url("impossibly-cute-puppy-8.jpg");
+  background-size: 100% 100%;
+  /*grid-column-start: 1;
+  grid-column-end: 3;*/
+  height: 400px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+}
+
+h3{
+  background-color: orange;
+  display: inline-block;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.money {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .column {
     flex: 50%;
