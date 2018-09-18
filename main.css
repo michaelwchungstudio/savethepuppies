@@ -97,17 +97,8 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-/*.image {
-  /*border: 2px solid red;*/
-  /*background-image: url("impossibly-cute-puppy-8.jpg");
-  background-repeat: no-repeat;
-  position: relative;
-  top: 50px;
-  left: 100px;*/
-/*}**/
-
 .image {
-  background-image: url("impossibly-cute-puppy-8.jpg");
+  background-image: url("img/impossibly-cute-puppy-8.jpg");
   background-size: 100% 100%;
   /*grid-column-start: 1;
   grid-column-end: 3;*/
@@ -117,7 +108,7 @@ body {
 }
 
 h2 {
-  color: blue;
+  color: #FA7F49;
   text-align: center;
   padding-top: 200px;
 }
@@ -129,7 +120,7 @@ h2 {
 }
 
 h3{
-  background-color: orange;
+  background-color: #FA7F49;
   display: inline-block;
   padding: 10px;
   justify-content: center;
@@ -138,6 +129,11 @@ h3{
 
 .money {
   text-align: center;
+}
+
+h4{
+  background-color: lightgrey;
+  color: black;
 }
 
 /*Mobile Responsive*/
