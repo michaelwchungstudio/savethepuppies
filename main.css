@@ -1,9 +1,91 @@
-/* Reset */
+/*clears margin and padding of defaulted elements*/
+*{
+  box-sizing: border-box;
+}
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
+
+.imggallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 10%;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 5px;
+}
+
+.image {
+  margin-top: 10px;
+  vertical-align: middle;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+/* #a{
+  background-image: url("img/puppy1.jpg");
+}
+#b{
+  background-image: url("img/puppy7.jpg");
+  width: 100%;
+}
+#c{
+  background-image: url("img/puppy2.jpg");
+  width: 100%;
+}
+#d{
+  background-image: url("img/puppy8.jpg");
+  width: 100%;
+}
+#e{
+  background-image: url("img/puppy3.jpg");
+  width: 100%;
+}
+#f{
+  background-image: url("img/puppy9.jpg");
+  width: 100%;
+}
+#g{
+  background-image: url("img/puppy4.jpg");
+  width: 100%;
+}
+#h{
+  background-image: url("img/puppy10.jpg");
+  width: 100%;
+}
+#i{
+  background-image: url("img/puppy5.jpg");
+  width: 100%;
+}
+#j{
+  background-image: url("img/puppy11.jpg");
+  width: 100%;
+}
+#k{
+  background-image: url("img/puppy6.jpg");
+  width: 100%;
+}
+#l{
+  background-image: url("img/puppy12.jpg");
+  width: 100%;
+}
+#m{
+  background-image: url("img/puppy14.jpg");
+  width: 100%;
+}
+#n{
+  background-image: url("img/puppy15.jpg");
+  width: 100%;
+}
+#o{
+  background-image: url("img/puppy16.jpg");
+  width: 100%;
+} */
 
 body {
   font-family: futura;
@@ -110,19 +192,16 @@ h3{
   text-align: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
