@@ -59,6 +59,10 @@ body {
   color: gray;
 }
 
+.company-name:hover {
+  color: #FA7F49;
+}
+
 .copyright {
   font-size: 9px;
 }
