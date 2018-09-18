@@ -57,3 +57,37 @@ body {
 }
 
 /* END OF NAVBAR */
+
+/* DONATE PAGE */
+
+.wrapper {
+  width: 100%;
+  display:grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  /*border: 2px solid red;*/
+  background-image: url("");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.image {
+  background-image: url("");
+  background-size: 100% 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /*border: 2px solid green;*/
+  height: 400px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+h2 {
+  color: blue;
+  margin-bottom: 30px;
+}
