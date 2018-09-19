@@ -5,7 +5,6 @@
 }
 
 /*clear margin and padding*/
-
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
 
 /* Nav Bar */
 /* ------ */
-
 .nav-container {
   width: 100%;
   display:flex;
@@ -34,9 +32,7 @@ body {
   color: #FA7F49;
 }
 
-
 /* Style When Hover Over Links */
-
 .nav-container a:hover, .active-link {
   background-color: #D8D7DA;
   color: black;
@@ -44,7 +40,6 @@ body {
 }
 
 /* Donate Button */
-
 .donate-link {
   background-color: #FA7F49;
 }
@@ -54,7 +49,6 @@ body {
 }
 
 /* Company Name */
-
 .company-name{
   margin: auto 15%;
   color: gray;
@@ -73,7 +67,6 @@ body {
 
 /* CONTENT */
 /* ------ */
-
 .wallpaper {
   position: relative;
   background-image: url("img/majestic.jpg");
@@ -107,7 +100,6 @@ body {
 
 /* Image Gallery */
 /* ------ */
-
 .imggallery {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +122,6 @@ body {
 /* END OF IMAGE GALLERY */
 
 /* DONATE PAGE */
-
 .wrapper {
   width: 100%;
   display:grid;
@@ -172,15 +163,48 @@ h3{
   text-align: center;
 }
 
-h4{
-  background-color: lightgrey;
-  color: black;
+/*Footer*/
+
+.footbar {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.smicons {
+  position: absolute;
+  top: 25px;
+}
+
+.botlogos img {
+  height: 25px;
+  padding-left: 3px;
+  padding-right: 3px;
+  opacity: 1.0;
+}
+
+.botlogos img:hover {
+  opacity: 0.5;
+}
+
+.cpyrt {
+  position: absolute;
+  bottom: 15px;
+}
+
+#cptxt {
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 /*Mobile Responsive*/
 
 /*TABLET*/
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .column {
     flex: 50%;
